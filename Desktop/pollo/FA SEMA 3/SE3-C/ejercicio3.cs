@@ -10,7 +10,16 @@ namespace SE3_C
     {
         static void Main(string[] args)
         {
+            Console.Write("INGRESE EL NUMERO 1: ");
+            double NUM1 = double.Parse(Console.ReadLine());
 
+            Console.Write("INGRESE EL NUMERO 2: ");
+            double NUM2 = double.Parse(Console.ReadLine());
+
+            Console.WriteLine($"\nSUMA: {NUM1 + NUM2}");
+            Console.WriteLine($"\nRESTA: {NUM1 - NUM2}");
+            Console.WriteLine($"\nMULTIPLICACION: {NUM1 * NUM2}");
+            Console.WriteLine($"\nDIVISION: {NUM1 / NUM2}");
         }
     }
 }
